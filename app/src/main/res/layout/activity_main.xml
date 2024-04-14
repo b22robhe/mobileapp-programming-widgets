@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leave a review"
+        android:text="@string/leave_a_review"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -22,11 +22,11 @@
         android:id="@+id/reviewBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50px"
-        android:layout_marginLeft="50px"
-        android:layout_marginEnd="50px"
-        android:layout_marginRight="50px" />
-
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="text" />
 
     <TextView
         android:id="@+id/appText"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dp"
-        android:text="Is this a good app?"
+        android:text="@string/is_this_a_good_app"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -51,17 +51,18 @@
             android:id="@+id/yesBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="75px"
+            android:layout_marginRight="75dp"
             android:background="@android:color/holo_green_light"
-            android:text="YES"
-            android:textStyle="bold" />
+            android:text="@string/yes"
+            android:textStyle="bold"
+            android:layout_marginEnd="75dp" />
 
         <Button
             android:id="@+id/noBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_red_light"
-            android:text="NO"
+            android:text="@string/no"
             android:textStyle="bold" />
     </LinearLayout>
 

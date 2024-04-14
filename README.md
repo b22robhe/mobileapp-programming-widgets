@@ -36,7 +36,7 @@ Jag har även lagt till en EditText widget samt två TextViews
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Leave a review"
+        android:text="@string/leave_a_review"
         android:textSize="24sp"
         ...
         />
@@ -52,7 +52,7 @@ Jag har även lagt till en EditText widget samt två TextViews
         android:id="@+id/appText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Is this a good app?"
+        android:text="@string/is_this_a_good_app"
         ...
         />
 ```
@@ -77,9 +77,9 @@ För att ge knapparna funktionalitet har jag implementerat en OnClickListener so
             }
         });
 ```
-Bild 1:
+Bild 1, Yes button clicked:
 ![](yesButton.png)
 
-Bild 2:
+Bild 2, No button clicked:
 ![](noButton.png)
 

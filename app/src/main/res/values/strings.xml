@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Widgets</string>
+    <string name="app_name">Review</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="leave_a_review">Leave a review</string>
+    <string name="is_this_a_good_app">Is this a good app?</string>
 </resources>
